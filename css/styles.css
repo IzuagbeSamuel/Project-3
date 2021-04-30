@@ -161,7 +161,6 @@ img {
 }
 
 .question1 img {
-  width: 50%;
   text-align: center;
   margin: 10px;
 }
@@ -187,7 +186,6 @@ img {
 }
 
 .question2 img {
-  width: 50%;
   text-align: center;
   margin: 10px;
 }
@@ -213,7 +211,6 @@ img {
 }
 
 .question3 img {
-  width: 50%;
   text-align: center;
   margin: 10px;
 }
@@ -228,5 +225,55 @@ img {
 }
 
 .question3 button {
+  margin: 30px;
+}
+
+.question4 {
+  border: 2px solid rgb(245, 236, 236);
+  margin: 10px;
+  border-radius: 20px;
+  display: none;
+}
+
+.question4 img {
+  text-align: center;
+  margin: 10px;
+}
+
+
+.question4 p {
+ margin: 10px;
+}
+
+.question4 input {
+  margin: 10px;
+}
+
+.question4 button {
+  margin: 30px;
+}
+
+.question5 {
+  border: 2px solid rgb(245, 236, 236);
+  margin: 10px;
+  border-radius: 20px;
+  display: none;
+}
+
+.question5 img {
+  text-align: center;
+  margin: 10px;
+}
+
+
+.question5 p {
+ margin: 10px;
+}
+
+.question5 input {
+  margin: 10px;
+}
+
+.question5 button {
   margin: 30px;
 }

@@ -4,13 +4,23 @@ $(document).ready(function(){
    $("#Q1").show();
   })
 
-  $("#btn2").click(function(){
+  $("#ans1").change(function(){
     $("#Q1").hide();
     $("#Q2").show();
   })
 
-  $("#btn3").click(function(){
+  $("#ans2").change(function(){
     $("#Q2").hide();
     $("#Q3").show();
+  })
+
+  $("#ans3").change(function(){
+    $("#Q3").hide();
+    $("#Q4").show();
+  })
+
+  $("#ans4").change(function(){
+    $("#Q4").hide();
+    $("#Q5").show();
   })
 })
