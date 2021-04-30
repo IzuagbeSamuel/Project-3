@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+.clr {
+  clear: both;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
@@ -30,6 +34,9 @@ p {
   font-size: 20px;
 }
 
+.navbar {
+  margin-top: 20px;
+}
 
 .navbar ul {
   display: flex;
@@ -49,6 +56,11 @@ p {
 .navbar small {
   font-size: 15px;
   color: blue;
+}
+
+img {
+  width: 250px;
+  height: 250px;
 }
 
 .navbar .flex {
@@ -104,16 +116,16 @@ p {
 }
 
 .showcase {
-  margin: 50px;
+  margin: 20px;
   padding-top: 100px;
 }
 
 .btn {
   margin-top: 20px;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   color: white;
   background-color: rgb(84, 84, 238);
   display: inline-block;
@@ -125,4 +137,96 @@ p {
 
 .btn:hover {
   transform: scale(0.90);
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  padding: 3px;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.question1 {
+  border: 2px solid rgb(245, 236, 236);
+  margin: 10px;
+  border-radius: 20px;
+  display: none;
+}
+
+.question1 img {
+  width: 50%;
+  text-align: center;
+  margin: 10px;
+}
+
+
+.question1 p {
+ margin: 10px;
+}
+
+.question1 input {
+  margin: 10px;
+}
+
+.question1 button {
+  margin: 30px;
+}
+
+.question2 {
+  border: 2px solid rgb(245, 236, 236);
+  margin: 10px;
+  border-radius: 20px;
+  display: none;
+}
+
+.question2 img {
+  width: 50%;
+  text-align: center;
+  margin: 10px;
+}
+
+
+.question2 p {
+ margin: 10px;
+}
+
+.question2 input {
+  margin: 10px;
+}
+
+.question2 button {
+  margin: 30px;
+}
+
+.question3 {
+  border: 2px solid rgb(245, 236, 236);
+  margin: 10px;
+  border-radius: 20px;
+  display: none;
+}
+
+.question3 img {
+  width: 50%;
+  text-align: center;
+  margin: 10px;
+}
+
+
+.question3 p {
+ margin: 10px;
+}
+
+.question3 input {
+  margin: 10px;
+}
+
+.question3 button {
+  margin: 30px;
 }
