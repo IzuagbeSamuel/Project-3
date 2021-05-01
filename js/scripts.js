@@ -55,17 +55,44 @@ $(document).ready(function(){
   $("#form").submit(function(event){
    
     const questionOne = $("input[name ='naruto']:checked").val();
-    if (questionOne) {
+    const questionTwo = $("input[name = 'naruto']:checked").val();
+    const questionThree = $("input[name = 'naruto']:checked").val();
+    const questionFour = $("input[name = 'naruto']:checked").val();
+    const questionFive = $("input[name = 'naruto']:checked").val();
+    const questionSix = $("input[name = 'naruto']:checked").val();
+    const questionSeven = $("input[name = 'naruto']:checked").val();
+    const questionEight = $("input[name = 'naruto']:checked").val();
+    if (questionOne, questionTwo, questionThree, questionFour, questionFive, questionSix, questionSeven, questionEight) {
       $("#uzumaki").show();
       $("#form").hide();
     }
-    event.preventDefault();
-  })
 
-  $("#form").submit(function(event){
-    let name = ("#name").val();
+    const quesOne = $("input[name ='deku']:checked").val();
+    const quesTwo = $("input[name = 'deku']:checked").val();
+    const quesThree = $("input[name = 'deku']:checked").val();
+    const quesFour = $("input[name = 'deku']:checked").val();
+    const quesFive = $("input[name = 'deku']:checked").val();
+    const quesSix = $("input[name = 'deku']:checked").val();
+    const quesSeven = $("input[name = 'deku']:checked").val();
+    const quesEight = $("input[name = 'deku']:checked").val();
+    if (quesOne, quesTwo, quesThree, quesFour, quesFive, quesSix, quesSeven, quesEight) {
+      $("#midoria").show();
+      $("#form").hide();
+    }
 
-    (".name").append(name);
+    const queOne = $("input[name ='saitama']:checked").val();
+    const queTwo = $("input[name = 'saitama']:checked").val();
+    const queThree = $("input[name = 'saitama']:checked").val();
+    const queFour = $("input[name = 'saitama']:checked").val();
+    const queFive = $("input[name = 'saitama']:checked").val();
+    const queSix = $("input[name = 'saitama']:checked").val();
+    const queSeven = $("input[name = 'saitama']:checked").val();
+    const queEight = $("input[name = 'saitama']:checked").val();
+    if (queOne, queTwo, queThree, queFour, queFive, queSix, queSeven, queEight) {
+      $("#saitama").show();
+      $("#form").hide();
+    }
+
 
     event.preventDefault();
   })

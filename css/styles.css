@@ -162,6 +162,7 @@ p {
 
 .question1 img {
   text-align: center;
+  width: 40%;
   margin: 10px;
 }
 
@@ -186,6 +187,7 @@ p {
 }
 
 .question2 img {
+  width: 40%;
   text-align: center;
   margin: 10px;
 }
@@ -212,6 +214,7 @@ p {
 
 .question3 img {
   text-align: center;
+  width: 40%;
   margin: 10px;
 }
 
@@ -237,6 +240,7 @@ p {
 
 .question4 img {
   text-align: center;
+  width: 40%;
   margin: 10px;
 }
 
@@ -442,7 +446,17 @@ p {
 }
 .saitama {
   display: none;
+  text-align: center;
+}
+
+.saitama p {
+  font-size: 30px;
 }
 .midoria {
   display: none;
+  text-align: center;
+}
+
+.midoria p {
+  font-size: 30px;
 }
