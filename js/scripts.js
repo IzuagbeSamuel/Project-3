@@ -54,5 +54,19 @@ $(document).ready(function(){
 
   $("#form").submit(function(event){
    
+    const questionOne = $("input[name ='naruto']:checked").val();
+    if (questionOne) {
+      $("#uzumaki").show();
+      $("#form").hide();
+    }
+    event.preventDefault();
+  })
+
+  $("#form").submit(function(event){
+    let name = ("#name").val();
+
+    (".name").append(name);
+
+    event.preventDefault();
   })
 })

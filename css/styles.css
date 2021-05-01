@@ -421,7 +421,19 @@ p {
 
 .naruto {
   display: none;
+  text-align: center;
 }
+
+.naruto img {
+  width: 20%;
+  height: 20%;
+  text-align: center;
+}
+
+.naruto p {
+  font-size: 30px;
+}
+
 .madara {
   display: none;
 }
