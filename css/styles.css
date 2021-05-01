@@ -440,10 +440,27 @@ p {
 
 .madara {
   display: none;
+  text-align: center;
 }
+
+.madara p{
+  font-size: 30px;
+}
+
+.madara img {
+  width: 30%;
+  height: 30%;
+}
+
 .kirito {
   display: none;
+  text-align: center;
 }
+
+.kirito p {
+  font-size: 30px;
+}
+
 .saitama {
   display: none;
   text-align: center;
